@@ -1,0 +1,582 @@
+1. Which component is used to compile, debug and execute the java programs?
+a) JRE
+b) JIT
+c) JDK
+d) JVM
+Answer: c
+
+2. Which one of the following is not a Java feature?
+a) Object-oriented
+b) Use of pointers
+c) Portable
+d) Dynamic and Extensible
+Answer: b
+
+3. Which of these cannot be used for a variable name in Java?
+a) identifier & keyword
+b) identifier
+c) keyword
+d) none of the mentioned
+Answer:c
+
+4. What is the extension of java code files?
+a) .js
+b) .txt
+c) .class
+d) .java
+Answer:d
+
+5. Which of the following is not an OOPS concept in Java?
+a) Polymorphism
+b) Inheritance
+c) Compilation
+d) Encapsulation
+Answer: c
+
+6. Which of the following is a type of polymorphism in Java Programming?
+a) Multiple polymorphism
+b) Compile time polymorphism
+c) Multilevel polymorphism
+d) Execution time polymorphism
+Answer: b
+
+7. What is the extension of compiled java classes?
+a) .txt
+b) .js
+c) .class
+d) .java
+Answer: c
+
+8. Which exception is thrown when java is out of memory?
+a) MemoryError
+b) OutOfMemoryError
+c) MemoryOutOfBoundsException
+d) MemoryFullException
+Answer: b
+
+9. Which of these are selection statements in Java?
+a) break
+b) continue
+c) for()
+d) if()
+Answer: d
+
+10. Which of these keywords is used to define interfaces in Java?
+a) intf
+b) Intf
+c) interface
+d) Interface
+Answer: c
+
+11. Which of the following is a superclass of every class in Java?
+a) ArrayList
+b) Abstract class
+c) Object class
+d) String
+Answer: c
+
+12. Which of these packages contains the exception Stack Overflow in Java?
+a) java.io
+b) java.system
+c) java.lang
+d) java.util
+Answer: c
+
+
+13. Which of these keywords are used for the block to be examined for exceptions?
+a) check
+b) throw
+c) catch
+d) try
+Answer: d
+
+14. A constructor
+
+(a) Must have the same name as the class it is declared within.
+(b) Is used to create objects.
+(c) May be declared private
+(d) Both (A) and (B) above
+(e) (a), (b) and (c) above.
+
+Answer: e
+
+15. Which of the following contains both date and time?
+a) java.io.date
+b) java.sql.date
+c) java.util.date
+d) java.util.dateTime
+Answer: d
+
+16. Which of the following is advantage of using PreparedStatement in Java?
+a) Slow performance
+b) Encourages SQL injection
+c) Prevents SQL injection
+d) More memory usage
+Answer: c
+
+17. Which one of the following contains date information?
+a) java.sql.TimeStamp
+b) java.sql.Time
+c) java.io.Time
+d) java.io.TimeStamp
+Answer: a
+
+18. Which of the following is used to limit the number of rows returned?
+a) setMaxRows(int i)
+b) setMinRows(int i)
+c) getMaxrows(int i)
+d) getMinRows(int i)
+Answer: a
+
+19. Which of the following is used to rollback a JDBC transaction?
+a) rollback()
+b) rollforward()
+c) deleteTransaction()
+d) RemoveTransaction()
+Answer: a
+
+20. Which of the following option leads to the portability and security of Java?
+
+a.Bytecode is executed by JVM
+b.The applet makes the Java code secure and portable
+c.Use of exception handling
+d.Dynamic binding between objects
+Answer:a
+
+21.  The default value of a static integer variable of a class in Java is,
+
+(a) 0 (b) 1 (c) Garbage value (d) Null (e) -1.
+
+Answer: a
+
+22. What will be printed as the output of the following program?
+
+public class testincr
+{
+public static void main(String args[])
+{
+int i = 0;
+i = i++ + i;
+System.out.println(“I = ” +i);
+}
+}
+
+(a) I = 0 (b) I = 1 (c) I = 2 (d) I = 3 (e) Compile-time Error.
+
+Answer: b
+
+23. Multiple inheritance means,
+
+(a) one class inheriting from more super classes
+(b) more classes inheriting from one super class
+(c) more classes inheriting from more super classes
+(d) None of the above
+(e) (a) and (b) above.
+
+Answer: a
+
+24.  Which statement is not true in java language?
+
+(a) A public member of a class can be accessed in all the packages.
+(b) A private member of a class cannot be accessed by the methods of the same class.
+(c) A private member of a class cannot be accessed from its derived class.
+(d) A protected member of a class can be accessed from its derived class.
+(e) None of the above.
+
+Answer:b
+
+25. To prevent any method from overriding, we declare the method as,
+
+(a) static (b) const (c) final (d) abstract (e) none of the above.
+
+Answer:c
+
+26: Which one of the following is not true?
+
+(a) A class containing abstract methods is called an abstract class.
+(b) Abstract methods should be implemented in the derived class.
+(c) An abstract class cannot have non-abstract methods.
+(d) A class must be qualified as ‘abstract’ class, if it contains one abstract method.
+(e) None of the above.
+
+Answer: c
+
+27. The fields in an interface are implicitly specified as,
+
+(a) static only (b) protected (c) private
+(d) both static and final (e) none of the above.
+
+Answer:d
+
+28. What is the output of the following program:
+
+public class testmeth
+{
+static int i = 1;
+public static void main(String args[])
+{
+System.out.println(i+” , “);
+m(i);
+System.out.println(i);
+}
+public void m(int i)
+{
+i += 2;
+}
+}
+
+(a) 1 , 3 (b) 3 , 1 (c) 1 , 1 (d) 1 , 0 (e) none of the above.
+
+Answer: c
+
+29. Which of the following is not true?
+
+(a) An interface can extend another interface.
+(b) A class which is implementing an interface must implement all the methods of the interface.
+(c) An interface can implement another interface.
+(d) An interface is a solution for multiple inheritance in java.
+(e) None of the above.
+
+Answer: c
+
+30. Which of the following is true?
+
+(a) A finally block is executed before the catch block but after the try block.
+(b) A finally block is executed, only after the catch block is executed.
+(c) A finally block is executed whether an exception is thrown or not.
+(d) A finally block is executed, only if an exception occurs.
+(e) None of the above.
+
+Answer:c
+
+
+31. Among these expressions, which is(are) of type String?
+
+(a) “0” (b) “ab” + “cd”
+(c) ‘0’
+(d) Both (A) and (B) above (e) (A), (B) and (C) above.
+
+Answer: d
+
+32.Consider the following code fragment
+Rectangle r1 = new Rectangle();
+r1.setColor(Color.blue);
+Rectangle r2 = r1;
+r2.setColor(Color.red);
+
+After the above piece of code is executed, what are the colors of r1 and
+r2 (in this order)?
+
+(a) Color.blue
+Color.red
+(b) Color.blue
+Color.blue
+(c) Color.red
+Color.red
+(d) Color.red
+Color.blue
+(e) None of the above.
+
+Answer:c
+
+33.  What is the type and value of the following expression? (Notice the integer division)
+-4 + 1/2 + 2*-3 + 5.0
+
+(a) int -5 (b) double -4.5
+(c) int -4
+(d) double -5.0 (e) None of the above.
+
+Answer: d
+
+34.  What is printed by the following statement?
+System.out.print(“Hello,\nworld!”);
+
+(a) Hello, \nworld! (b) Hello, world!
+(c)
+(d) “Hello, \nworld!” (e) None of the above.
+
+Answer: c
+
+35. Consider the two methods (within the same class)
+public static int foo(int a, String s)
+{
+s = “Yellow”;
+a=a+2;
+return a;
+}
+public static void bar()
+{
+int a=3;
+String s = “Blue”;
+a = foo(a,s);
+System.out.println(“a=”+a+” s=”+s);
+}
+public static void main(String args[])
+{
+bar();
+}
+
+What is printed on execution of these methods?
+
+(a) a = 3 s = Blue (b) a = 5 s = Yellow (c) a = 3 s = Yellow
+(d) a = 5 s = Blue (e) none of the above.
+
+Answer: d
+
+36.  Which of the following variable declaration would NOT compile in a java program?
+
+(a) int var; (b) int VAR; (c) int var1; (d) int var_1; (e) int 1_var;.
+
+Answer:e
+
+37. Consider the following class definition:
+
+public class MyClass
+{
+private int value;
+public void setValue(int i){ / code / }
+// Other methods…
+}
+
+The method setValue assigns the value of i to the instance field value. What could you write for the implementation of setValue?
+
+(a) value = i; (b) this.value = i; (c) value == i;
+(d) Both (A) and (B) and above (e) (A), (B) and (C) above.
+
+Answer:d
+
+38. What will be the output of the following Java code?
+
+    class increment {
+        public static void main(String args[]) 
+        {        
+             int g = 3;
+             System.out.print(++g * 8);
+        } 
+    }
+a) 32
+b) 33
+c) 24
+d) 25
+Answer: a
+
+39. What will be the output of the following Java program?
+
+class output {
+        public static void main(String args[]) 
+        {
+            double a, b,c;
+            a = 3.0/0;
+            b = 0/4.0;
+            c=0/0.0;
+ 
+	    System.out.println(a);
+            System.out.println(b);
+            System.out.println(c);
+        } 
+    }
+a) NaN
+b) Infinity
+c) 0.0
+d) all of the mentioned
+Answer:d
+
+
+40. What will be the output of the following Java program?
+
+    class variable_scope 
+    {
+        public static void main(String args[]) 
+        {
+            int x;
+            x = 5;
+            {
+	        int y = 6;
+	        System.out.print(x + " " + y);
+            }
+            System.out.println(x + " " + y);
+        } 
+    }
+a) Compilation error
+b) Runtime error
+c) 5 6 5 6
+d) 5 6 5
+Answer:a
+
+41. What will be the error in the following Java code?
+
+    byte b = 50;
+    b = b * 50;
+a) b cannot contain value 50
+b) b cannot contain value 100, limited by its range
+c) No error in this code
+d) * operator has converted b * 50 into int, which can not be converted to byte without casting
+Answer: d
+
+42. What will be the output of the following Java program?
+
+    class leftshift_operator 
+    {
+        public static void main(String args[]) 
+        {        
+             byte x = 64;
+             int i;
+             byte y; 
+             i = x << 2;
+             y = (byte) (x << 2)
+             System.out.print(i + " " + y);
+        } 
+    }
+a) 0 256
+b) 0 64
+c) 256 0
+d) 64 0
+Answer:c
+
+43. What is Truncation in Java?
+a) Floating-point value assigned to a Floating type
+b) Floating-point value assigned to an integer type
+c) Integer value assigned to floating type
+d) Integer value assigned to floating type
+Answer: b
+
+
+43. What will be the output of the following Java program?
+
+    class Output 
+    {
+        public static void main(String args[])
+        {
+            int arr[] = {1, 2, 3, 4, 5};
+            for ( int i = 0; i < arr.length - 2; ++i)
+                System.out.println(arr[i] + " ");
+        } 
+    }
+a) 1 2 3 4 5
+b) 1 2 3 4
+c) 1 2
+d) 1 2 3
+Answer:d
+
+44. What will be the output of the following Java code?
+
+    class String_demo 
+    {
+        public static void main(String args[])
+        {
+            char chars[] = {'a', 'b', 'c'};
+            String s = new String(chars);
+            System.out.println(s);
+        }
+   }
+a) abc
+b) a
+c) b
+d) c
+Answer: a
+
+45. What will be the output of the following Java code?
+
+    class Output 
+    {
+        public static void main(String args[]) 
+        {
+            Integer i = new Integer(257);  
+            byte x = i.byteValue();
+            System.out.print(x);
+        }
+    }
+a) 257
+b) 256
+c) 1
+d) 0
+Answer: c
+
+46. What will be the output of the following Java program?
+
+    class Output 
+    {
+         public static void main(String args[]) 
+        {
+            double x = 2.0;  
+            double y = 3.0;
+            double z = Math.pow( x, y );
+            System.out.print(z);
+        }
+    }
+a) 9.0
+b) 8.0
+c) 4.0
+d) 2.0
+Answer: b
+
+47. What will be the output of the following Java code?
+
+    class Output 
+    {
+         public static void main(String args[]) 
+         {
+             double x = 3.14;  
+             int y = (int) Math.ceil(x);
+             System.out.print(y);
+         }
+    }
+a) 3
+b) 0
+c) 4
+d) 3.0
+Answer: c
+
+48. What will be the output of the following Java code snippet?
+
+    import java.util.*;
+    class Arraylists 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayLists obj = new ArrayLists();
+            obj.add("A");
+            obj.add("B");
+            obj.add("C");
+            obj.add(1, "D");
+            System.out.println(obj);
+        }
+    }
+a) [A, D, C]
+b) [A, B, C]
+c) [A, B, C, D]
+d) [A, D, B, C]
+Answer:d
+
+49. Which one of the following is not an access modifier?
+a) Protected
+b) Void
+c) Public
+d) Private
+Answer: b
+
+50. What is the numerical range of a char data type in Java?
+a) 0 to 256
+b) -128 to 127
+c) 0 to 65535
+d) 0 to 32767
+Answer: c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
